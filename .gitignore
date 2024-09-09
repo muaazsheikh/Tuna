@@ -1,0 +1,24 @@
+# Ignore macOS system files
+.DS_Store
+
+# Ignore node_modules
+node_modules/
+
+# Ignore Pods (for iOS projects using CocoaPods)
+Pods/
+ios/Pods/
+
+# Ignore Android build files
+/android/.gradle/
+/android/app/build/
+/android/build/
+
+# Ignore unused folder (specify the folder path if it's a specific folder)
+unused_folder_name/
+
+# Ignore other common build folders and generated files
+*.log
+*.lock
+build/
+.idea/
+*.iml
